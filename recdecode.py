@@ -138,14 +138,6 @@ class RecDecoder(object):
 		else:
 			return False
 
-	def __visible_check(self, rawstring):
-		"""检查字符串base64解码后是否全为可见字符.
-
-		rawstring是需要判断的string变量.
-
-		返回值为布尔数
-		"""
-
 	def getparams(self):
 		"""解析用户传入数据，取出其中的键值对.
 
